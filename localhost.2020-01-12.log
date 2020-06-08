@@ -1,0 +1,17 @@
+12-Jan-2020 11:12:03.846 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+12-Jan-2020 11:12:04.057 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+12-Jan-2020 11:12:10.354 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+12-Jan-2020 11:12:10.553 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webPath' = [/usr/local/sisy/tomcat1/webapps/chainOrder/]
+12-Jan-2020 11:12:10.646 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+12-Jan-2020 11:12:16.344 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+12-Jan-2020 11:12:24.598 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Jan-2020 11:12:24.600 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+12-Jan-2020 11:12:24.713 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+12-Jan-2020 11:12:24.714 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+12-Jan-2020 11:12:38.723 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+12-Jan-2020 11:12:39.291 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webPath' = [/usr/local/sisy/tomcat1/webapps/chainOrder/]
+12-Jan-2020 11:12:39.478 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+12-Jan-2020 11:12:48.111 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+12-Jan-2020 11:12:49.112 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Jan-2020 11:12:49.115 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Jan-2020 11:12:49.119 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@443130ef')

@@ -1,0 +1,148 @@
+html { overflow-x:hidden; }
+
+body{
+	background: #ecf0f5;
+
+}
+element.style{
+	/*min-height: 400px;*/
+}
+
+.nav-stacked>li>a{
+	border-radius: 0;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background: none;
+	color: #000;
+
+}
+
+.content-header {
+	position: relative;
+	/*padding: 15px 15px 15px 15px;*/
+	height: 40px;
+	width: 100%;
+}
+
+
+.content-header h1{
+	float: left;
+	line-height: 30px;
+
+}
+.content-header>.breadcrumb {
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 0px;
+	padding-right: 20px;
+	line-height: 30px;
+	padding-top: 15px;
+}
+
+.main-footer {
+    padding: 7px;
+    color: #444;
+    border-top: 1px solid #eee;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+
+.grid-btn{
+	/*margin-bottom:10px;*/
+	padding: 15px 15px;
+}
+.grid-btn .btn{
+	margin-right:10px;
+}
+.pointer{cursor: pointer;}
+
+.ml-10 { margin-left:0 !important; }
+	@media (min-width: 768px) {
+		.ml-10 { margin-left:10px !important; }
+		.col-sm-10 {width: 70%;padding-left: 0px;}
+		.col-sm-2 {width: 24%;}
+	}
+	tbody > tr > th {font-weight: normal; }
+	.panel .table { margin:0 0; }
+	.panel .pagination { margin:0; }
+	.panel-default>.panel-heading {background-color: #f5f5f5;}
+	.row{
+		/*border-top: 1px solid #ddd;*/
+		margin:0;
+		padding:20px 2px 0px 2px;
+	}
+	.col-xs-6{padding-left: 0px;padding-right: 0px;}
+	.form-horizontal .form-group {margin-left:0px;margin-right:0px;}
+	.form-horizontal{
+		width:550px;padding-top:20px;
+	}
+.ui-jqgrid {
+	border: none;
+}
+.table tbody tr td.active {
+	background: none;
+}
+
+.table tbody tr.success td {
+	background: none;
+}
+
+.table tbody tr.active td {
+	background: none;
+}
+
+
+
+/* panel css sisy*/
+.tab-content {
+	background: #fff;
+}
+.tab-pane{
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+.my_panel {
+	padding: 20px 20px;
+}
+
+
+.my-drop-group{
+	padding-top: 0;
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 20px;
+
+}
+
+
+.my-dropDown-item{
+	display: flex;
+	flex-flow: row nowrap;
+
+}
+.drop-frame{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px 10px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.my-caret{
+	float: right;
+	text-align: center;
+	margin-top: 7px;
+
+}
+.my-span {
+	font-size: 16px;
+
+}
