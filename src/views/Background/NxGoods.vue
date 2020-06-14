@@ -8,13 +8,13 @@
             <div class="box box-default row ">
 
 
-                <div class="col-md-2 ">
+                <div class="col-md-3 ">
 
                     <nxGoodsTree @fatherObject="getFatherObject($event)"/>
 
                 </div>
 
-                <div class="col-md-10">
+                <div class="col-md-9">
 
                     <nxGoodsPanel :secondFatherId="secondFatherId" :secondFatherName="secondFatherName"/>
                 </div>

@@ -448,10 +448,10 @@
                     var goods = ` <li>
                                 <div class="row no-padding">
                                     <div class="body-item col-md-2">
-                                        <input class="goodsName"  style="width: 100%;"  id= ` + indexGoods + `_goodsName />
+                                        <input class="goodsName"  style="width: 100%;"  id= ` + indexGoods + `_goodsName autocomplete="off"/>
                                     </div>
                                     <div class="body-item col-md-2">
-                                        <input  class="quantity"  type="number" style="width: 80%" id= ` + indexGoods + `_quantiry />
+                                        <input  class="quantity"  type="number" style="width: 80%" id= ` + indexGoods + `_quantiry  autocomplete="off"/>
                                          <text class="standard" style="width: 10%;"></text>
                                     </div>
                                    <div class="body-item col-md-2">

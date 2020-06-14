@@ -105,7 +105,8 @@
                 buyingPrice: "",
                 sellPrice: "",
                 communityStandardList: [],
-                nxCgGoodsType: "",
+                nxCgGoodsType: "1",
+                // aaa: "1"
 
             }
         },

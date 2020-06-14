@@ -1,40 +1,43 @@
 <template>
 
     <div class="content">
-        <div class="box box-primary">
-            <div class="box-header with-border">
-                <h3 class="box-title">今日促销商品</h3>
 
-                <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                    </button>
-                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+
+        <ul class="products-list product-list-in-box">
+            <li class="item" v-for="(item, index) in promoteList">
+                <div class="product-img">
+                    <img :src="server + item.nxPromoteFilePath" alt="Product Image">
                 </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <ul class="products-list product-list-in-box">
-                    <li class="item" v-for="(item, index) in promoteList">
-                        <div class="product-img">
-                            <img :src="server + item.nxPromoteFilePath" alt="Product Image">
-                        </div>
-                        <div class="product-info">
-                            <a href="javascript:void(0)" class="product-title">{{item.nxCommunityGoodsEntity.nxCgGoodsName}}
-                                <span class="label label-warning pull-right">¥{{item.nxPromotePrice}}/{{item.nxPromoteStandard}}</span></a>
-                            <span class="product-description">{{item.nxPromoteWords}}
+                <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">{{item.nxCommunityGoodsEntity.nxCgGoodsName}}
+                        <span class="label label-warning pull-right">¥{{item.nxPromotePrice}}/{{item.nxPromoteStandard}}</span></a>
+                    <span class="product-description">{{item.nxPromoteWords}}
                         </span>
-                        </div>
-                    </li>
-                    <!-- /.item -->
+                </div>
+            </li>
+            <!-- /.item -->
 
-                </ul>
-            </div>
-            <!-- /.box-body -->
-            <!--<div class="box-footer text-center">-->
-                <!--<a href="javascript:void(0)" class="uppercase">View All Products</a>-->
+        </ul>
+        <!--<div class="box box-primary">-->
+            <!--<div class="box-header with-border">-->
+                <!--<h3 class="box-title">今日促销商品</h3>-->
+
+                <!--<div class="box-tools pull-right">-->
+                    <!--<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>-->
+                    <!--</button>-->
+                    <!--<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>-->
+                <!--</div>-->
             <!--</div>-->
-            <!-- /.box-footer -->
-        </div>
+            <!--&lt;!&ndash; /.box-header &ndash;&gt;-->
+            <!--<div class="box-body">-->
+               <!---->
+            <!--</div>-->
+            <!--&lt;!&ndash; /.box-body &ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="box-footer text-center">&ndash;&gt;-->
+                <!--&lt;!&ndash;<a href="javascript:void(0)" class="uppercase">View All Products</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash; /.box-footer &ndash;&gt;-->
+        <!--</div>-->
 
     </div>
 
